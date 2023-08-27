@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Web Design</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,900;1,300;1,400;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/Starlight_Exploration_Agency_Logo-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <video autoplay loop muted plays-inline class="back-video">
+                    <source src="/snowy_trees_-_7328 (1080p).mp4" type="video/mp4">
+                </video>
+                  <ul>
+                    <li class=""><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">PROJECTS</a></li>
+                    <li><a href="">MISSIONS</a></li>
+                    <li><a href="">TESTIMONIALS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                  </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>Starlight Exploration Agency</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eveniet laudantium esse aspernatur inventore aut, a assumenda! Vero est expedita totam provident? Laboriosam aliquid odit dolores laborum rerum nihil non, fugiat quod atque, deleniti, sit iusto. Quidem a dicta sapiente odio, vitae, ab quae, molestiae nam adipisci eaque ducimus. Blanditiis dolor assumenda ad impedit facilis eligendi nihil! Veniam iure praesentium distinctio? Culpa impedit tenetur tempora autem reiciendis laudantium doloribus rerum ipsam quasi, nisi, fugiat eaque iusto nam aspernatur in earum cumque minus non beatae! Quidem facilis labore aperiam nemo sunt blanditiis enim, minus, odio corporis ipsum, fuga hic repellendus voluptatibus.</p>
+    <a href="/Visitustoknowmore.html" class="hero-btn">Visit Us To Know More</a>
+</div>
+</section>
+<!-------Javascript for Toggle Menu-------->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0"
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px"
+    }
+</script>
+</body>
+</html>
